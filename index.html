@@ -3,47 +3,86 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Christian's Portfolio</title>
+  <meta name="description" content="Christian Osei – Front-End Web Developer and Designer offering web design, logo creation, and digital services." />
+  <meta name="keywords" content="web developer, logo design, freelancer, HTML, CSS, responsive web design, graphic designer" />
+  <title>Christian Osei | Web Developer & Designer</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <header>
-    <h1>Christian Osei</h1>
-    <p>Front-End Developer & Designer</p>
-    <nav>
-      <a href="#projects">Projects</a>
-      <a href="#about">About</a>
-      <a href="#contact">Contact</a>
-    </nav>
+  <header class="hero">
+    <h1>Hi, I'm Christian Osei</h1>
+    <p>Web Developer & Graphic Designer</p>
+    <a href="#contact" class="cta-button">Let’s Work Together</a>
   </header>
+
+  <nav class="main-nav">
+    <a href="#projects">Projects</a>
+    <a href="#services">Services</a>
+    <a href="#graphics">Designs</a>
+    <a href="#about">About</a>
+    <a href="#contact">Contact</a>
+  </nav>
 
   <section id="projects">
     <h2>Projects</h2>
     <div class="project-grid">
       <div class="project-card">
-        <h3>Personal Portfolio</h3>
-        <p>A fully responsive site to showcase my work and skills.</p>
+        <h3>Portfolio Website</h3>
+        <p>Responsive portfolio showcasing my dev and design work.</p>
         <a href="#">View Project</a>
       </div>
       <div class="project-card">
-        <h3>Landing Page</h3>
-        <p>Sleek landing page for a startup using HTML/CSS only.</p>
+        <h3>Startup Landing Page</h3>
+        <p>Clean and minimal HTML/CSS landing page for a SaaS client.</p>
         <a href="#">View Project</a>
       </div>
+    </div>
+  </section>
+
+  <section id="services">
+    <h2>What I Offer</h2>
+    <div class="services-grid">
+      <div class="service-card">
+        <h3>Web Design</h3>
+        <p>Modern, responsive websites customized to your goals.</p>
+      </div>
+      <div class="service-card">
+        <h3>Logo Design</h3>
+        <p>Creative and meaningful branding tailored to your audience.</p>
+      </div>
+      <div class="service-card">
+        <h3>Site Optimization</h3>
+        <p>Speed, SEO, and accessibility upgrades to boost performance.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="graphics">
+    <h2>Graphic Design</h2>
+    <div class="image-grid">
+      <img src="logos/logo1.png" alt="Logo Design 1">
+      <img src="logos/logo2.png" alt="Logo Design 2">
+      <img src="logos/logo3.png" alt="Logo Design 3">
     </div>
   </section>
 
   <section id="about">
     <h2>About Me</h2>
     <p>
-      I'm a creative and motivated IT student with a passion for clean design and modern web development. I specialize in building responsive, visually appealing websites using HTML, CSS, and a touch of design magic.
+      I'm Christian, an IT student with a passion for turning ideas into engaging digital experiences. I blend web development with strong visual design to create impactful online presences.
     </p>
   </section>
 
   <section id="contact">
     <h2>Contact</h2>
-    <p>Email: yourname@email.com</p>
+    <p>Email: <a href="mailto:yourname@email.com">yourname@email.com</a></p>
     <p>GitHub: <a href="https://github.com/yourusername">github.com/yourusername</a></p>
+    <form action="https://formspree.io/f/yourformid" method="POST">
+      <input type="text" name="name" placeholder="Your Name" required />
+      <input type="email" name="email" placeholder="Your Email" required />
+      <textarea name="message" placeholder="Your Message" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
   </section>
 
   <footer>
@@ -51,3 +90,4 @@
   </footer>
 </body>
 </html>
+
