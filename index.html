@@ -7,6 +7,7 @@
   <meta name="keywords" content="web developer, logo design, freelancer, HTML, CSS, responsive web design, graphic designer" />
   <title>Christian Osei | Web Developer & Designer</title>
   <link rel="stylesheet" href="style.css" />
+  <script src="https://unpkg.com/scrollreveal"></script>
 </head>
 <body>
   <header class="hero">
@@ -88,6 +89,11 @@
   <footer>
     <p>© 2025 Christian Osei. All rights reserved.</p>
   </footer>
+
+  <script>
+    ScrollReveal().reveal('.hero', { delay: 200, origin: 'top', distance: '50px' });
+    ScrollReveal().reveal('section', { delay: 300, distance: '30px', origin: 'bottom', interval: 200 });
+    ScrollReveal().reveal('.cta-button', { delay: 500, scale: 0.9 });
+  </script>
 </body>
 </html>
-
