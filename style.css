@@ -115,6 +115,31 @@ h2 {
   text-decoration: underline;
 }
 
+.about {
+  background: #0d0d0d;
+  color: #fff;
+  padding: 80px 20px;
+  text-align: center;
+}
+
+.about-content {
+  max-width: 800px;
+  margin: auto;
+}
+
+.about h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  color: #00ffe1;
+}
+
+.about p {
+  font-size: 1.2rem;
+  line-height: 1.7;
+  color: #ccc;
+}
+
+
 .image-grid {
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
 }
